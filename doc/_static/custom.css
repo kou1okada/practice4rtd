@@ -1,0 +1,54 @@
+h1 {
+  border: solid #2980b9;
+  border-width: 8px 0 8px 0;
+}
+
+h2 {
+  border: solid #2980b9;
+  border-width: 0 0 4px 0;
+}
+
+h3 {
+  border: solid #2980b9;
+  border-width: 0 0 1px 0;
+}
+
+h4 {
+  border: dashed #2980b9;
+  border-width: 0 0 1px 0;
+}
+
+p {
+  text-indent: 1em;
+}
+
+img {
+  cursor: zoom-in;
+  border: 1px solid lightgray;
+}
+
+img:hover {
+  border: 1px solid black;
+}
+
+.rst-content td .line-block {
+  margin-bottom: 0;
+}
+
+.forcnp.highlight-bash input,
+.forcnp.highlight-bat input,
+.forcnp.highlight-c input,
+.forcnp.highlight-powershell input,
+.forcnp.highlight-python3 input,
+.forcnp.highlight-text input {
+      top: -24px;
+  position: relative;
+}
+
+kbd.kbd {
+  border: 1px solid #888;
+  border-radius: 0.25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+  white-space: nowrap;
+}
